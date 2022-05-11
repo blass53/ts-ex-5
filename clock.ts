@@ -2,7 +2,7 @@ export class Clock {
   // horas y minutos
   private hora: number;
   private minuto: number;
-  // 
+  
   // calculamos las horas
   private calculoH = (h: number, m: number): number => {
     // dividimos los minutos entre 60 para calular cuantas horas hay
